@@ -1,0 +1,33 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.10.16",
+  "startedAt":  "2025-03-13T13:26:01.929860Z",
+  "args":  [
+    "--qwen_api_key",
+    "sk-275206b2a32b4b55bc079afa1d69b635",
+    "--epochs",
+    "2"
+  ],
+  "program":  "D:\\Projects\\Qwen_turbo\\main.py",
+  "codePath":  "main.py",
+  "email":  "13909561109@163.com",
+  "root":  "D:\\Projects\\Qwen_turbo",
+  "host":  "CHINAMI-A37MEQI",
+  "executable":  "D:\\anaconda\\envs\\jailbreak\\python.exe",
+  "codePathLocal":  "main.py",
+  "cpu_count":  16,
+  "cpu_count_logical":  24,
+  "disk":  {
+    "/":  {
+      "total":  "999653634048",
+      "used":  "64172339200"
+    }
+  },
+  "memory":  {
+    "total":  "8263544832"
+  },
+  "cpu":  {
+    "count":  16,
+    "countLogical":  24
+  }
+}

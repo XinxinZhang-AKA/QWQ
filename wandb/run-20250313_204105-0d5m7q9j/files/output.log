@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "D:\Projects\Qwen_turbo\main.py", line 166, in <module>
+    warm_up_strategy_library, warm_up_attack_log, warm_up_summarizer_log = autodan_turbo_pipeline.warm_up(
+  File "D:\Projects\Qwen_turbo\pipeline.py", line 95, in warm_up
+    jailbreak_prompt, attacker_system = self.attacker.warm_up_attack(
+  File "D:\Projects\Qwen_turbo\framework\attacker.py", line 25, in warm_up_attack
+    response = self.wrapper(self.model.generate(condition, system, user, **adjusted_kwargs), request)
+TypeError: QwenTextGenerationModel.generate() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "D:\Projects\Qwen_turbo\main.py", line 166, in <module>
+    warm_up_strategy_library, warm_up_attack_log, warm_up_summarizer_log = autodan_turbo_pipeline.warm_up(
+  File "D:\Projects\Qwen_turbo\pipeline.py", line 95, in warm_up
+    jailbreak_prompt, attacker_system = self.attacker.warm_up_attack(
+  File "D:\Projects\Qwen_turbo\framework\attacker.py", line 25, in warm_up_attack
+    response = self.wrapper(self.model.generate(condition, system, user, **adjusted_kwargs), request)
+TypeError: QwenTextGenerationModel.generate() takes 3 positional arguments but 4 were given
